@@ -1,0 +1,45 @@
+.messageBlock{
+    max-width: 480px;
+    display: block;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.message1 {
+    background: #1e2c54;
+    padding: 10px;
+    border-radius: 1em;
+    position: absolute;
+    line-height: 1.5em;
+    color: white;
+}
+.message1:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0px;
+    left: -24px;
+    border: 25px solid transparent;
+    border-bottom: 25px solid  #1e2c54;
+
+}
+.time{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    opacity: 0.5;
+}
+.ava{
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-right: 20px;
+    right: 100%;
+    width: 55px;
+    height: 55px;
+}
+
+
+
+
+
