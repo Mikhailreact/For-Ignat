@@ -5,7 +5,6 @@ import s from './HW1.module.css'
 
 function HW1() {
 
-
     let avatar = "https://avatarfiles.alphacoders.com/221/thumb-221419.jpg";
     let name = "Mikhail";
     let message = "npm delete нажимал?";
