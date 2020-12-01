@@ -1,7 +1,52 @@
 .default {
+    /*position: relative;
+    display: inline-block;*/
+    width: auto;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #1c3025;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #194f1c;
+    background: linear-gradient(#359258, #32d253 48%, #085436 52%, #107c2a);
+    cursor: pointer
+}
 
+.default:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
 }
 
 .red {
     background: red;
 }
+
+.red {
+    position: relative;
+    display: inline-block;
+    width: 10em;
+    height: 2.5em;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #3b1818;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, .1em .1em .2em #4f1919;
+    background: linear-gradient(#923535, #ea5454 48%, #540808 52%, #7c1010);
+    cursor: pointer
+}
+.red:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+    cursor: pointer
+}
+

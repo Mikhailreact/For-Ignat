@@ -1,3 +1,16 @@
 .someClass {
+    display: block;
+    margin-left: 5px;
+}
+
+.affair {
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+.btnX {
 
 }

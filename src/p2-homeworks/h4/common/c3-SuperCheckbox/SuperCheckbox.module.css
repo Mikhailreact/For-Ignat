@@ -3,5 +3,62 @@
 }
 
 .spanClassName {
+    color: red;
+    cursor: pointer
 
 }
+
+
+input[type=checkbox] {
+    position: relative;
+    padding: unset;
+    margin: 20px;
+    width: 80px;
+    height: 30px;
+    -webkit-appearance: none;
+    background: #db9b9b;
+    outline: none;
+    border-radius: 20px;
+    border:  1px solid #31411c;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    transition: 0.3s;
+
+}
+
+input:checked[type=checkbox] {
+    background: #6bc5e3;
+}
+
+input[type=checkbox]:before {
+    content: 'NO';
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #ec5b5b;
+    border-radius: 50%;
+    transition: 0.3s ease all;
+    cursor: pointer
+}
+
+input:checked[type=checkbox]:before {
+    left: 49px;
+    content: 'YES';
+    position: absolute;
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    transition: 0.3s ease all;
+    cursor: pointer
+}
+

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Affairs from "./Affairs";
-
+import s from "./Affairs.module.css"
 
 // types
 export type AffairPriorityType = "high" | "low" | "middle"  // need to fix any
@@ -21,13 +21,13 @@ const defaultAffairs: Array<AffairType>  = [ // need to fix any
 ];
 
 // pure helper functions
-export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType)  => { // need to fix any
+export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType)  => {
     if(filter === 'high') return affairs.filter(a => a.priority === 'high')
     if(filter === 'low') return affairs.filter(a => a.priority === 'low')
     if(filter === 'middle') return affairs.filter(a => a.priority === 'middle')
     return affairs
 }
-export const deleteAffair = (affairs: Array<AffairType>, _id: number): any => { // need to fix any
+export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => {
     return  affairs.filter(a => a._id !== _id) ;
 
     // need to fix
@@ -41,7 +41,7 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)); // need to fix any
 
     return (
-        <div>
+        <div className={s.someClass}>
             <hr/>
             homeworks 2
 

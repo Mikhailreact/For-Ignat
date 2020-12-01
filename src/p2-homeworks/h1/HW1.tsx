@@ -18,7 +18,8 @@ function HW1() {
 
     return (
         <div className={s.dialogues}>
-            {/* homeworks 1
+            homeworks 1
+            {/*
             should work (должно работать)*/}
             <Message
                 avatar={avatar}
