@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Mikhailreact/For-Ignat.git/static/css/main.1227e1ee.chunk.css",
+    "main.js": "/Mikhailreact/For-Ignat.git/static/js/main.f9314f13.chunk.js",
+    "main.js.map": "/Mikhailreact/For-Ignat.git/static/js/main.f9314f13.chunk.js.map",
+    "runtime-main.js": "/Mikhailreact/For-Ignat.git/static/js/runtime-main.48672201.js",
+    "runtime-main.js.map": "/Mikhailreact/For-Ignat.git/static/js/runtime-main.48672201.js.map",
+    "static/js/2.065e277d.chunk.js": "/Mikhailreact/For-Ignat.git/static/js/2.065e277d.chunk.js",
+    "static/js/2.065e277d.chunk.js.map": "/Mikhailreact/For-Ignat.git/static/js/2.065e277d.chunk.js.map",
+    "index.html": "/Mikhailreact/For-Ignat.git/index.html",
+    "static/css/main.1227e1ee.chunk.css.map": "/Mikhailreact/For-Ignat.git/static/css/main.1227e1ee.chunk.css.map",
+    "static/js/2.065e277d.chunk.js.LICENSE.txt": "/Mikhailreact/For-Ignat.git/static/js/2.065e277d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48672201.js",
+    "static/js/2.065e277d.chunk.js",
+    "static/css/main.1227e1ee.chunk.css",
+    "static/js/main.f9314f13.chunk.js"
+  ]
+}
